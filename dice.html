@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hoger Lager</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type='text/css' href="css/dice2.css"> 
+        <script type="text/javascript" 
+        src="js/controller/DiceController.js"></script> 
+        <script type="text/javascript" src="js/view/DiceView.js"></script>
+        <script type="text/javascript"
+        src="js/model/DiceModel.js"></script> 
+        <script type="text/javascript" src="js/Dice2.js"></script> 
+    </head>
+    <body>
+        <div id="showScore"></div>     
+        <br>
+        <div id="bank">
+            <div id="dobbelsteen1"></div>
+            <div id="dobbelsteen2"></div>
+            <br>
+            <input type="number" onkeydown="return false;" id="myNumber" step="10" value="10" min="10" max="100">
+            <br>
+            <button class="bank" id="show">bank Gooien</button>
+            <br>
+            <input type="radio" class="check" name="bet" id="hoog"><p>hoger</p>
+            <br>
+            <input type="radio" class="check2" name="bet" id="laag"><p>lager</p>
+        </div>
+        <div id="speler">
+            <div id="dobbelsteen3"></div>
+            <div id="dobbelsteen4"></div>
+            <button class="speler" id="show2" >speler Gooien</button>
+        </div>
+    </body>
+</html>

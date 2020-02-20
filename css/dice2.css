@@ -1,0 +1,35 @@
+#dobbelsteen1,#dobbelsteen2,#dobbelsteen3,#dobbelsteen4
+{    
+    font-size: 100px;
+    width: 100px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#bank
+{
+    float: left;
+}
+
+#speler
+{
+    float: right;
+}
+
+p
+{
+    margin: 0px;
+    width: 50px;
+}
+
+#myNumber,#show,#show2
+{
+    margin-bottom: 20px;
+}
+
+#showScore
+{
+    margin: 0px;
+    width: 50px;
+}
